@@ -1,0 +1,208 @@
+body, header {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, rgb(255, 182, 193), rgb(255, 240, 245));
+    background-attachment: fixed;
+}
+
+.logo {
+    position: relative;
+    width: 380px;
+    top: 260px;
+    left: 10px;
+    z-index: 4;
+}
+
+.tagline {
+    position: relative;
+    width: 370px;
+    top: 260px;
+    left: 15px;
+    z-index: 4;
+}
+
+.head {
+    position: relative;
+    width: 60.5px;
+    top: -60px;
+    left: 65.5%;
+}
+
+.torso {
+    position: relative;
+    width: 70px;
+    top: 50px;
+    left: 47%;
+    z-index: 4;
+}
+
+.piggie {
+    position: relative;
+    width: 70px;
+    top: 54px;
+    left: -6px;
+    z-index: 5;
+}
+
+.login-container {
+    width: 90%;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 4;
+}
+
+.login-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+}
+
+.login-input {
+    position: relative;
+    top: 125px;
+    left: 8px;
+    margin: 5px;
+    display: block; 
+    width: 90%; 
+    height: 30px;
+    max-width: 300px; 
+    padding: 12px;
+    font-size: 1.5em; 
+    border: 3px solid #f7c6d6;
+    border-radius: 50px;
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    z-index: 4;
+}
+
+.login-button {
+    position: relative;
+    top: 148px;
+    left: 36%;
+    width: 100px;
+    height: 40px; 
+    font-size: 1.5em;
+    border: none;
+    background-color: rgb(250, 153, 195);
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    z-index: 4;
+}
+
+.login-button:active {
+    background-color: rgb(230, 92, 140);
+    transform: scale(0.95);
+    z-index: 4;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(19deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Cherry Blossom Animation */
+.cherry-blossom-container img {
+    animation: rotate 3s infinite ease-in-out;
+}
+
+.cherry-blossom-1 {
+    position: relative;
+    top: -400px;
+    left: 30px;
+    width: 40px;
+    z-index: 0;
+    animation-delay: 0.1s;
+    opacity: 0.7;
+}
+
+.cherry-blossom-2 {
+    position: relative;
+    top: -350px;
+    left: 70px;
+    width: 50px;
+    z-index: 0;
+    animation-delay: 0.2s;
+    opacity: 0.7;
+}
+
+.cherry-blossom-3 {
+    position: relative;
+    top: -450px;
+    left: 150px;
+    width: 80px;
+    z-index: 0;
+    animation-delay: 0.3s;
+    opacity: 0.7;
+}
+
+.cherry-blossom-4 {
+    position: relative;
+    top: 150px;
+    left: 120px;
+    width: 70px;
+    z-index: 0;
+    animation-delay: 0.4s;
+    opacity: 0.7;
+}
+
+.cherry-blossom-5 {
+    position: relative;
+    top: 150px;
+    left: -200px;
+    width: 40px;
+    z-index: 0;
+    animation-delay: 0.5s;
+    opacity: 0.7;
+}
+
+.cherry-blossom-6 {
+    position: relative;
+    top: -170px;
+    left: -100px;
+    width: 40px;
+    z-index: 0;
+    animation-delay: 0.6s;
+    opacity: 0.7;
+}
+
+.cherry-blossom-7 {
+    position: relative;
+    top: 200px;
+    left: -140px;
+    width: 40px;
+    z-index: 0;
+    animation-delay: 0.7s;
+    opacity: 0.7;
+}
+
+.cherry-blossom-8 {
+    position: relative;
+    top: -75px;
+    left: 330px;
+    width: 40px;
+    z-index: 0;
+    animation-delay: 0.8s;
+    opacity: 0.7;
+}
+
+.cherry-blossom-9 {
+    position: relative;
+    top: -130px;
+    left: -45px;
+    width: 65px;
+    z-index: 0;
+    animation-delay: 0.9s;
+    opacity: 0.7;
+}
